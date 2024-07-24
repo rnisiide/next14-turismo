@@ -8,7 +8,7 @@ const Footer = () => {
                 Desenvolvido por: <a className={styles.link} href="https://github.com/rnisiide"> Ricardo Nisiide
                 </a>
                 |
-                <a className={styles.link} href="https://github.com/rnisiide/next14-starter/tree/next14-ricardo">Código Github
+                <a className={styles.link} href="https://github.com/rnisiide/next14-turismo">Código Github
                 </a>
             </div>
         </div>
