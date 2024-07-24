@@ -1,0 +1,166 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/passeios/[slug]/singlePost.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.singlePost_container__73Mic {
+    display: flex;
+    gap: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.singlePost_imgContainer__zpw70 {
+    flex: 1 1;
+    position: relative;
+    height: calc(100vh - 300px);
+}
+
+.singlePost_img__ktsVA {
+    object-fit: cover;
+}
+
+.singlePost_textContainer__kzn6e {
+    flex: 2 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.singlePost_title__uSJZc {
+    font-size: 64px;
+}
+
+.singlePost_detail__kVy_n {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+
+
+.singlePost_detailText__jMvr_ {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.singlePost_detailValue__ef710 {
+    font-weight: 500;
+}
+
+.singlePost_content__u5TtL {
+    font-size: 20px;
+
+}
+
+.singlePost_btn__Xdea8 {
+    background-color: rgb(0, 122, 115);
+    height: 50px;
+    width: 200px;
+    color: var(--text);
+
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.singlePost_btn__Xdea8:hover {
+
+    font-weight: bold;
+}
+
+@media (max-width:768px) {
+    .singlePost_imgContainer__zpw70 {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1536px) {
+    .singlePost_container__73Mic {
+        width: 1366px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .singlePost_container__73Mic {
+        width: 1280px;
+
+    }
+}
+
+@media (max-width: 1280px) {
+    .singlePost_container__73Mic {
+        width: 1024px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+
+    .singlePost_container__73Mic {
+        width: 768px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .singlePost_container__73Mic {
+        width: 640px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .singlePost_container__73Mic {
+        width: 475px;
+    }
+}
+
+@media (max-width: 475px) {
+    .singlePost_container__73Mic {
+        width: 380px;
+    }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/postUser/postUser.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.postUser_container__dKtv0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.postUser_avatar__1kiLn {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.postUser_texts__whqrP {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.postUser_title__oP_Sa {
+    color: gray;
+    font-weight: bold;
+}
+
+.postUser_username__OZ0h_ {
+    font-weight: 500;
+}

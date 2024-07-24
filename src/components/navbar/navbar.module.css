@@ -1,0 +1,22 @@
+.container {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg);
+    color: var(--text);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo {
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.logoImg {
+    width: 200px;
+
+}

@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    gap: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.imgContainer {
+    flex: 1;
+}
+
+.subtitle {
+    color: var(--bgSoft)
+}
+
+.title {
+    font-size: 54px;
+}
+
+.desc {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box h1 {
+    color: var(--btn);
+}
+
+.imgContainer {
+    flex: 1;
+    position: relative;
+}
+
+.img {
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .boxes {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+
+
+@media (max-width: 1536px) {
+    .container {
+        width: 1366px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .container {
+        width: 1280px;
+
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 1024px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+
+    .container {
+        width: 768px;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 640px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .container {
+        width: 475px;
+    }
+}
+
+@media (max-width: 475px) {
+    .container {
+        width: 380px;
+    }
+}

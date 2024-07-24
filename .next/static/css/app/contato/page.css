@@ -1,0 +1,132 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/contato/contact.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.contact_container__abrbm {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.contact_imgContainer___UD02 {
+    flex: 1 1;
+
+    height: 500px;
+    width: auto;
+    position: relative;
+}
+
+.contact_img___GZYd {
+    object-fit: contain;
+}
+
+.contact_textContainer__hYQb_ {
+    display: flex;
+    flex: 1 1;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact_subtitle__Ynfc7 {
+    margin-bottom: 10px;
+
+}
+
+.contact_desc__uUwCQ {
+    font-size: 20px;
+}
+
+.contact_boxes__BKpt0 {
+    padding-top: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.contact_box__dyL3e {
+    text-align: center;
+}
+
+.contact_box__dyL3e>h1 {
+    font-size: 20px;
+
+}
+
+.contact_box__dyL3e>p {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact_container__abrbm {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact_boxes__BKpt0 {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+
+
+@media (max-width: 1536px) {
+    .contact_container__abrbm {
+        width: 1366px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .contact_container__abrbm {
+        width: 1280px;
+
+    }
+}
+
+@media (max-width: 1280px) {
+    .contact_container__abrbm {
+        width: 1024px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+
+    .contact_container__abrbm {
+        width: 768px;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .contact_container__abrbm {
+        width: 640px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .contact_container__abrbm {
+        width: 475px;
+    }
+}
+
+@media (max-width: 475px) {
+    .contact_container__abrbm {
+        width: 380px;
+    }
+}
